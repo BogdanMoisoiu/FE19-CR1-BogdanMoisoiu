@@ -1,3 +1,6 @@
+$col: black;
+$wi: 40px;
+
 @media screen and (min-width: 1024px){
 header{
     .logs{
@@ -8,7 +11,7 @@ header{
     }
       .search{
         a{
-            color: black;
+            color: $col;
         };
         
       }
@@ -22,7 +25,7 @@ header{
             li{
                 text-decoration: none;
                 a{
-                    color:black;
+                    color:$col;
                 }
             }
         }
@@ -36,8 +39,8 @@ main{
     gap: 10px;
 
     margin-top: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: $wi;
+    margin-right: $wi;
     margin-bottom: 20px;
    
     .food{
@@ -72,7 +75,7 @@ main{
 footer{
     
     color: white;
-    background-color: black;
+    background-color: $col;
    text-align: center;
    
     .linkf{
@@ -107,7 +110,7 @@ header{
     }
       .search{
         a{
-            color: black;
+            color: $col;
         };
         
       }
@@ -135,12 +138,12 @@ main{
     gap: 10px;
 
     margin-top: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: $wi;
+    margin-right: $wi;
     margin-bottom: 20px;
    
     .food{
-        max-width: 400px;
+        max-width: 500px;
         filter: drop-shadow(2px 2px 5px);
         position: relative;
         #pic{
@@ -170,7 +173,7 @@ main{
 footer{
     
     color: white;
-    background-color: black;
+    background-color: $col;
    text-align: center;
    
     .linkf{
@@ -206,7 +209,7 @@ a{
         }
           .search{
             a{
-                color: black;
+                color: $col;
             };
             
           }
@@ -220,7 +223,7 @@ a{
                 li{
                     text-decoration: none;
                     a{
-                        color:black;
+                        color:$col;
                     }
                 }
             }
@@ -239,7 +242,7 @@ a{
         margin-bottom: 20px;
        
         .food{
-            max-width: 300px;
+            max-width: 400px;
             filter: drop-shadow(2px 2px 5px);
             position: relative;
             #pic{

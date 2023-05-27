@@ -18,7 +18,7 @@
     text-align: center;
   }
   .container h1 {
-    color: #DB0038;
+    color: red;
   }
   .container h2 {
     color: chocolate;
@@ -36,13 +36,13 @@
   .rating {
     color: #f4b400;
     size: 25px;
-    background-color: red;
+    background-color: blue;
   }
   .rating p, .rating .container li, .container .rating li {
     color: whitesmoke;
   }
   .rating:hover {
-    background-color: black;
+    background-color: red;
   }
   span {
     color: #f4b400;
@@ -56,5 +56,8 @@
   body {
     font-family: "HappyMonkey", sans-serif;
     text-align: center;
+  }
+  #dir {
+    text-align: start;
   }
 }/*# sourceMappingURL=recipe.css.map */

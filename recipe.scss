@@ -1,3 +1,5 @@
+$color: red;
+$size: 25px;
 @media  screen {    
 html{
         display: flex;
@@ -23,7 +25,7 @@ html{
             text-align: center;
         }
         h1{
-            color: #DB0038;
+            color: $color;
         }
         h2{
             color: chocolate;
@@ -43,7 +45,7 @@ html{
 }
 .rating{
     color: #f4b400;
-    size: 25px;
+    size: $size;
     background-color: blue;
 
  p{
@@ -51,7 +53,7 @@ html{
     }
 }
 .rating:hover{
-    background-color: #DB0038;
+    background-color: $color;
 }
 footer{
     @extend header
@@ -70,6 +72,9 @@ body{
     text-align: center;
 }
 
+#dir{
+   text-align: start;
+}
 }
 
 // @media screen and (min-width: 481px) and (max-width: 1023px){    

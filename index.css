@@ -104,7 +104,7 @@
     margin-bottom: 20px;
   }
   main .food {
-    max-width: 400px;
+    max-width: 500px;
     filter: drop-shadow(2px 2px 5px);
     position: relative;
   }
@@ -179,7 +179,7 @@
     margin-bottom: 20px;
   }
   main .food {
-    max-width: 300px;
+    max-width: 400px;
     filter: drop-shadow(2px 2px 5px);
     position: relative;
   }
