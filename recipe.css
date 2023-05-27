@@ -4,6 +4,14 @@
     justify-content: center;
     margin: 0;
   }
+  .logs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .logs ul {
+    list-style-type: none;
+  }
   .container {
     text-align: center;
   }

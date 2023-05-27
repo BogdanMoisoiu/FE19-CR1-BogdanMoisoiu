@@ -7,6 +7,15 @@ html{
        
         margin: 0;
     }
+    .logs{
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+       ul{
+        list-style-type: none;
+       }
+    }
 .container{
     
     text-align: center;
