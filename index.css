@@ -1,4 +1,7 @@
 @media screen and (min-width: 1024px) {
+  * {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
   header .logs {
     display: flex;
     justify-content: space-between;
@@ -12,11 +15,12 @@
     justify-content: space-between;
     list-style-type: none;
   }
-  header .nav ul li {
-    text-decoration: none;
-  }
   header .nav ul li a {
+    text-decoration: none;
     color: black;
+  }
+  header .nav ul li:hover {
+    color: gold;
   }
   main {
     display: grid;
@@ -74,6 +78,9 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1023px) {
+  * {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
   header .logs {
     display: flex;
     justify-content: space-between;
@@ -87,11 +94,13 @@
     justify-content: space-between;
     list-style-type: none;
   }
-  header .nav ul li {
-    text-decoration: none;
-  }
   header .nav ul li a {
+    text-decoration: none;
     color: black;
+  }
+  header .nav ul li:hover {
+    font-weight: bold;
+    color: gold;
   }
   main {
     display: grid;
@@ -149,6 +158,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  * {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
   header .logs {
     display: flex;
     justify-content: space-between;
@@ -162,10 +174,8 @@
     justify-content: space-between;
     list-style-type: none;
   }
-  header .nav ul li {
-    text-decoration: none;
-  }
   header .nav ul li a {
+    text-decoration: none;
     color: black;
   }
   main {
