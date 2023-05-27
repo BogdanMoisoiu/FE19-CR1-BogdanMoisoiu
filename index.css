@@ -1,0 +1,225 @@
+@media screen and (min-width: 1024px) {
+  header .logs {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header .search a {
+    color: black;
+  }
+  header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  header .nav ul li {
+    text-decoration: none;
+  }
+  header .nav ul li a {
+    color: black;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  main .food {
+    max-width: 600px;
+    filter: drop-shadow(2px 2px 5px);
+    position: relative;
+  }
+  main .food #pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main .food .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 89.1%;
+    transition: 0.5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  footer .linkf {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  footer a {
+    color: white;
+  }
+  .sm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sm img {
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  header .logs {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header .search a {
+    color: black;
+  }
+  header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  header .nav ul li {
+    text-decoration: none;
+  }
+  header .nav ul li a {
+    color: black;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  main .food {
+    max-width: 400px;
+    filter: drop-shadow(2px 2px 5px);
+    position: relative;
+  }
+  main .food #pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main .food .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 84.5%;
+    transition: 0.5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  footer .linkf {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  footer a {
+    color: white;
+  }
+  .sm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sm img {
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .logs {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header .search a {
+    color: black;
+  }
+  header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  header .nav ul li {
+    text-decoration: none;
+  }
+  header .nav ul li a {
+    color: black;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  main .food {
+    max-width: 300px;
+    filter: drop-shadow(2px 2px 5px);
+    position: relative;
+  }
+  main .food #pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main .food .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 86.6%;
+    transition: 0.5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  footer .linkf {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  footer a {
+    color: white;
+  }
+  .sm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sm img {
+    align-items: baseline;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,72 @@
+header {
+  background-color: black;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style-type: none;
+}
+header nav ul li a {
+  color: white;
+}
+header nav ul li a:hover {
+  color: gold;
+}
+
+main #logo {
+  border: 1px solid;
+}
+main h1 {
+  display: flex;
+  justify-content: center;
+}
+main h2, main .pik {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main h3:hover {
+  color: gold;
+}
+main .fire {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .water {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .content {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+footer .linkf {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+footer a {
+  color: white;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sm img {
+  align-items: baseline;
+}/*# sourceMappingURL=about.css.map */

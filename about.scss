@@ -1,0 +1,84 @@
+header{
+    background-color: black;
+    nav{
+        ul{
+            display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        
+
+        list-style-type: none;
+
+        li{
+            a{
+                color: white;
+            }
+            a:hover{
+                color: gold;
+            }
+        }
+        }
+    }
+}
+main{
+
+#logo{
+    border: 1px solid;
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3:hover{
+    color: gold;
+}
+.pik{
+   @extend h2
+    
+}
+.fire{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.water{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  footer .linkf {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  footer a {
+    color: white;
+  }
+  .sm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sm img {
+    align-items: baseline;
+  }

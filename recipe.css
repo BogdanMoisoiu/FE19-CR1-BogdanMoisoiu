@@ -1,0 +1,60 @@
+@media screen {
+  html {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .container {
+    text-align: center;
+  }
+  .container p, .container li {
+    color: #707070;
+  }
+  .container li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .container header, .container footer {
+    text-align: center;
+  }
+  .container h1 {
+    color: #DB0038;
+  }
+  .container h2 {
+    color: chocolate;
+  }
+  .container h3 {
+    color: #474747;
+  }
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 2px 0px 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .rating {
+    color: #f4b400;
+    size: 25px;
+    background-color: red;
+  }
+  .rating p, .rating .container li, .container .rating li {
+    color: whitesmoke;
+  }
+  .rating:hover {
+    background-color: black;
+  }
+  span {
+    color: #f4b400;
+  }
+  .unchecked {
+    border: 2px;
+    border-radius: 2%;
+    border-color: #F4B400;
+    color: white;
+  }
+  body {
+    font-family: "HappyMonkey", sans-serif;
+    text-align: center;
+  }
+}/*# sourceMappingURL=recipe.css.map */

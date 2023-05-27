@@ -1,0 +1,147 @@
+@media  screen {    
+html{
+        display: flex;
+        justify-content: center;
+       
+        margin: 0;
+    }
+.container{
+    
+    text-align: center;
+
+        p{
+            color: #707070;
+
+        }
+        li{
+            @extend p;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+        }
+        header{
+            text-align: center;
+        }
+        h1{
+            color: #DB0038;
+        }
+        h2{
+            color: chocolate;
+        }
+        h3{
+            color: #474747;
+        }
+
+}
+.hero{
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 2px 0px 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.rating{
+    color: #f4b400;
+    size: 25px;
+    background-color: blue;
+
+ p{
+        color: whitesmoke;
+    }
+}
+.rating:hover{
+    background-color: #DB0038;
+}
+footer{
+    @extend header
+}
+span{
+    color: #f4b400;
+}
+.unchecked{
+    border: 2px;
+    border-radius: 2%;
+    border-color: #F4B400;
+    color: white;
+}
+body{
+    font-family: 'HappyMonkey', sans-serif;
+    text-align: center;
+}
+
+}
+
+// @media screen and (min-width: 481px) and (max-width: 1023px){    
+//     html{
+//             display: flex;
+//             justify-content: center;
+           
+//             margin: 0;
+//         }
+//     .container{
+        
+//         text-align: center;
+    
+//             p{
+//                 color: #707070;
+    
+//             }
+//             li{
+//                 @extend p;
+//                 padding-bottom: 5px;
+//                 padding-top: 5px;
+    
+//             }
+//             header{
+//                 text-align: center;
+//             }
+//             h1{
+//                 color: green;
+//             }
+//             h2{
+//                 color: maroon;
+//             }
+//             h3{
+//                 color: #474747;
+//             }
+    
+//     }
+//     .hero{
+//         background-color: #f4f4f4;
+//         text-align: center;
+//         box-shadow: 4px 0px 4px;
+//         padding-left: 50px;
+//         padding-right: 50px;
+       
+//     }
+//     .rating{
+//         color: #f4b400;
+//         size: 25px;
+//         background-color: red;
+    
+//      p{
+//             color: whitesmoke;
+//         }
+//     }
+//     .rating:hover{
+//         background-color: black;
+//     }
+//     footer{
+//         @extend header
+//     }
+//     span{
+//         color: #f4b400;
+//     }
+//     .unchecked{
+//         border: 2px;
+//         border-radius: 2%;
+//         border-color: #F4B400;
+//         color: white;
+//     }
+//     body{
+//         font-family: 'HappyMonkey', sans-serif;
+//         text-align: center;
+//     }
+    
+// }
